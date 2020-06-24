@@ -1,0 +1,264 @@
+Request method:	POST
+Request URI:	https://jira-automated.atlassian.net/rest/api/3/issue
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic c3VqaXRoc3VrdW1hcmFubUBnbWFpbC5jb206a3lUdkVwSW55V3BJZDlFbFJrZTBGQTFE
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "summary": "This is a story",
+        "issuetype": {
+            "id": "10001"
+        },
+        "project": {
+            "key": "RES"
+        }
+    }
+}
+Request method:	GET
+Request URI:	https://jira-automated.atlassian.net/rest/api/3/issue/RES-236
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic c3VqaXRoc3VrdW1hcmFubUBnbWFpbC5jb206a3lUdkVwSW55V3BJZDlFbFJrZTBGQTFE
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "summary": "This is a story",
+        "issuetype": {
+            "id": "10001"
+        },
+        "project": {
+            "key": "RES"
+        }
+    }
+}
+Request method:	POST
+Request URI:	https://jira-automated.atlassian.net/rest/api/3/issue
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic c3VqaXRoc3VrdW1hcmFubUBnbWFpbC5jb206a3lUdkVwSW55V3BJZDlFbFJrZTBGQTFE
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "summary": "This is a Bug",
+        "issuetype": {
+            "id": "10004"
+        },
+        "project": {
+            "key": "RES"
+        }
+    }
+}
+Request method:	GET
+Request URI:	https://jira-automated.atlassian.net/rest/api/3/issue/RES-237
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic c3VqaXRoc3VrdW1hcmFubUBnbWFpbC5jb206a3lUdkVwSW55V3BJZDlFbFJrZTBGQTFE
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "summary": "This is a Bug",
+        "issuetype": {
+            "id": "10004"
+        },
+        "project": {
+            "key": "RES"
+        }
+    }
+}
+Request method:	PUT
+Request URI:	https://jira-automated.atlassian.net/rest/api/3/issue/RES-237
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic c3VqaXRoc3VrdW1hcmFubUBnbWFpbC5jb206a3lUdkVwSW55V3BJZDlFbFJrZTBGQTFE
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "summary": "Jira title updated",
+        "issuetype": {
+            "id": "10004"
+        },
+        "project": {
+            "key": "RES"
+        }
+    }
+}
+Request method:	GET
+Request URI:	https://jira-automated.atlassian.net/rest/api/3/issue/RES-237
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic c3VqaXRoc3VrdW1hcmFubUBnbWFpbC5jb206a3lUdkVwSW55V3BJZDlFbFJrZTBGQTFE
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "summary": "Jira title updated",
+        "issuetype": {
+            "id": "10004"
+        },
+        "project": {
+            "key": "RES"
+        }
+    }
+}
+Request method:	POST
+Request URI:	https://jira-automated.atlassian.net/rest/api/3/issue/RES-237/comment
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	pathKey=comment
+Headers:		Authorization=Basic c3VqaXRoc3VrdW1hcmFubUBnbWFpbC5jb206a3lUdkVwSW55V3BJZDlFbFJrZTBGQTFE
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "body": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+            {
+                "type": "paragraph",
+                "content": [
+                    {
+                        "text": "Again a sample comment",
+                        "type": "text"
+                    }
+                ]
+            }
+        ]
+    }
+}
+Request method:	GET
+Request URI:	https://jira-automated.atlassian.net/rest/api/3/issue/10236/comment/10055
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic c3VqaXRoc3VrdW1hcmFubUBnbWFpbC5jb206a3lUdkVwSW55V3BJZDlFbFJrZTBGQTFE
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "body": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+            {
+                "type": "paragraph",
+                "content": [
+                    {
+                        "text": "Again a sample comment",
+                        "type": "text"
+                    }
+                ]
+            }
+        ]
+    }
+}
+Request method:	DELETE
+Request URI:	https://jira-automated.atlassian.net/rest/api/3/issue/10236/comment/10055
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic c3VqaXRoc3VrdW1hcmFubUBnbWFpbC5jb206a3lUdkVwSW55V3BJZDlFbFJrZTBGQTFE
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "body": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+            {
+                "type": "paragraph",
+                "content": [
+                    {
+                        "text": "Again a sample comment",
+                        "type": "text"
+                    }
+                ]
+            }
+        ]
+    }
+}
+Request method:	GET
+Request URI:	https://jira-automated.atlassian.net/rest/api/3/issue/10236/comment/10055
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic c3VqaXRoc3VrdW1hcmFubUBnbWFpbC5jb206a3lUdkVwSW55V3BJZDlFbFJrZTBGQTFE
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "body": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+            {
+                "type": "paragraph",
+                "content": [
+                    {
+                        "text": "Again a sample comment",
+                        "type": "text"
+                    }
+                ]
+            }
+        ]
+    }
+}

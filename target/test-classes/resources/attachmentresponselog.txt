@@ -1,0 +1,46 @@
+HTTP/1.1 200 
+Server: AtlassianProxy/1.15.8.1
+Vary: Accept-Encoding
+Cache-Control: no-cache, no-store, no-transform
+Content-Type: application/json;charset=UTF-8
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+Date: Wed, 24 Jun 2020 19:18:00 GMT
+ATL-TraceId: 6c6daf20ba801a92
+X-AREQUESTID: 13b333e7-83a5-46e5-99b4-0c68f26cfbe5
+X-AACCOUNTID: 5ee0bfc1a7a4030ab384b3e2
+X-XSS-Protection: 1; mode=block
+Transfer-Encoding: chunked
+Timing-Allow-Origin: *
+X-Content-Type-Options: nosniff
+Micros-Issuer: micros/edge-authenticator
+Connection: keep-alive
+Set-Cookie: atlassian.xsrf.token=5ce1d875-8efe-45d1-9a41-b50fb825b5ad_bf29bd3fe835a46407bd1e1441d3f15700c51954_lin; Path=/; Secure
+Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+
+[
+    {
+        "self": "https://jira-automated.atlassian.net/rest/api/3/attachment/10063",
+        "id": "10063",
+        "filename": "Samplefile.xlsx",
+        "author": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/user?accountId=5ee0bfc1a7a4030ab384b3e2",
+            "accountId": "5ee0bfc1a7a4030ab384b3e2",
+            "emailAddress": "sujithsukumaranm@gmail.com",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "24x24": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "16x16": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "32x32": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png"
+            },
+            "displayName": "sujith sukumaran",
+            "active": true,
+            "timeZone": "Asia/Amman",
+            "accountType": "atlassian"
+        },
+        "created": "2020-06-24T22:18:00.150+0300",
+        "size": 8362,
+        "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "content": "https://jira-automated.atlassian.net/secure/attachment/10063/Samplefile.xlsx"
+    }
+]

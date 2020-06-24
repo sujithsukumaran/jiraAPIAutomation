@@ -1,0 +1,18 @@
+Request method:	POST
+Request URI:	https://jira-automated.atlassian.net/rest/api/3/issue/RES-237/attachments
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	pathKey=attachments
+Headers:		X-Atlassian-Token=no-check
+				Authorization=Basic c3VqaXRoc3VrdW1hcmFubUBnbWFpbC5jb206a3lUdkVwSW55V3BJZDlFbFJrZTBGQTFE
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = file; filename = Samplefile.xlsx
+				Content-Type: application/octet-stream
+
+				src\test\java\resources\Samplefile.xlsx
+Body:			<none>

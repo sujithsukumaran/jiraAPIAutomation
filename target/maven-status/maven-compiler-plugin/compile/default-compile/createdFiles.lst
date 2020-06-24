@@ -1,0 +1,9 @@
+jiraPOJO\AddCommentContentParentPOJO.class
+jiraPOJO\AddCommentBodyPOJO.class
+jiraPOJO\CreateIssueTypePOJO.class
+jiraPOJO\CreateProjectPOJO.class
+jiraPOJO\AddCommentContentChildPOJO.class
+jiraPOJO\CreateIssuePOJO.class
+jiraPOJO\CreateFieldPOJO.class
+jiraPOJO\AddCommentPOJO.class
+apiTesting\JiraAPIFramework\App.class

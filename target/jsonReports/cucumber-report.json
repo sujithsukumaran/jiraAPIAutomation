@@ -1,0 +1,726 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-24T19:17:39.017Z",
+        "line": 16,
+        "name": "Create a Jira Issue",
+        "description": "",
+        "id": "issues-management;create-a-jira-issue;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4925000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Request payload is ready with \"10001\" and \"This is a story\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10001",
+                  "offset": 31
+                },
+                {
+                  "val": "This is a story",
+                  "offset": 43
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.request_payload_is_ready_with_something_and_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5781000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"CreateIssueAPI\" is invoked to create issue",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CreateIssueAPI",
+                  "offset": 1
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.something_is_invoked_to_create_issue(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Response has Statuscode as \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 28
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.response_has_something_as_something(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1720000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Response has issue created with \"key\" containing \"RES\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "key",
+                  "offset": 33
+                },
+                {
+                  "val": "RES",
+                  "offset": 50
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.response_has_issue_with_something_as_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 941000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"GetIssueAPI\" is invoked successfully with issueKey",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GetIssueAPI",
+                  "offset": 1
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.something_is_invoked_successfully_with_issuekey(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CreateIssue"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-24T19:17:52.838Z",
+        "line": 17,
+        "name": "Create a Jira Issue",
+        "description": "",
+        "id": "issues-management;create-a-jira-issue;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Request payload is ready with \"10004\" and \"This is a Bug\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10004",
+                  "offset": 31
+                },
+                {
+                  "val": "This is a Bug",
+                  "offset": 43
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.request_payload_is_ready_with_something_and_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 787000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"CreateIssueAPI\" is invoked to create issue",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CreateIssueAPI",
+                  "offset": 1
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.something_is_invoked_to_create_issue(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Response has Statuscode as \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 28
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.response_has_something_as_something(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Response has issue created with \"key\" containing \"RES\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "key",
+                  "offset": 33
+                },
+                {
+                  "val": "RES",
+                  "offset": 50
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.response_has_issue_with_something_as_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 703000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"GetIssueAPI\" is invoked successfully with issueKey",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GetIssueAPI",
+                  "offset": 1
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.something_is_invoked_successfully_with_issuekey(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CreateIssue"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-24T19:17:54.382Z",
+        "line": 20,
+        "name": "Update the summary of issue created",
+        "description": "",
+        "id": "issues-management;update-the-summary-of-issue-created",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Request payload is ready with \"10004\" and \"Jira title updated\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10004",
+                  "offset": 31
+                },
+                {
+                  "val": "Jira title updated",
+                  "offset": 43
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.request_payload_is_ready_with_something_and_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 570000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "\"ModifyIssueAPI\" is invoked with \"PUT\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ModifyIssueAPI",
+                  "offset": 1
+                },
+                {
+                  "val": "PUT",
+                  "offset": 34
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.something_is_invoked_with_something_method(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Response has Statuscode as \"204\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "204",
+                  "offset": 28
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.response_has_something_as_something(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 737000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "\"GetIssueAPI\" is invoked successfully with issueKey",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GetIssueAPI",
+                  "offset": 1
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.something_is_invoked_successfully_with_issuekey(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Response has \"fields.summary\" with value \"Jira title updated\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fields.summary",
+                  "offset": 14
+                },
+                {
+                  "val": "Jira title updated",
+                  "offset": 42
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.response_has_something_with_value_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ModifyTitle"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-24T19:17:55.742Z",
+        "line": 28,
+        "name": "Add a comment in the issue created",
+        "description": "",
+        "id": "issues-management;add-a-comment-in-the-issue-created",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 232000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Request payload is ready with the comment \"Again a sample comment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Again a sample comment",
+                  "offset": 43
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.request_payload_is_ready_with_the_comment_something(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 611000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "\"ModifyIssueAPI\" is invoked with \"POST\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ModifyIssueAPI",
+                  "offset": 1
+                },
+                {
+                  "val": "POST",
+                  "offset": 34
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.something_is_invoked_with_something_method(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Response has Statuscode as \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 28
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.response_has_something_as_something(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Response has \"body.content[0].content[0].text\" with value \"Again a sample comment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "body.content[0].content[0].text",
+                  "offset": 14
+                },
+                {
+                  "val": "Again a sample comment",
+                  "offset": 59
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.response_has_something_with_value_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "\"commentID\" from \"self\" field is fetched successfully",
+            "match": {
+              "arguments": [
+                {
+                  "val": "commentID",
+                  "offset": 1
+                },
+                {
+                  "val": "self",
+                  "offset": 18
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.something_from_something_field_is_fetched_successfully(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 964000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Details retrieved successfully using \"commentID\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "commentID",
+                  "offset": 38
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.details_retrieved_successfully_using_something(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Response has Statuscode as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.response_has_something_as_something(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddComment"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-24T19:17:57.677Z",
+        "line": 38,
+        "name": "Delete the comment from the issue",
+        "description": "",
+        "id": "issues-management;delete-the-comment-from-the-issue",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Basic Request payload is ready",
+            "match": {
+              "location": "jiraStepDefinitions.StepDefinitions.basic_request_payload_is_ready()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 547000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "DeleteIssueAPI is invoked to perform delete action",
+            "match": {
+              "location": "jiraStepDefinitions.StepDefinitions.deleteissueapi_is_invoked_to_perform_delete_action()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Response has Statuscode as \"204\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "204",
+                  "offset": 28
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.response_has_something_as_something(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 476000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Details retrieved successfully using \"commentID\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "commentID",
+                  "offset": 38
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.details_retrieved_successfully_using_something(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Response has Statuscode as \"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 28
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.response_has_something_as_something(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteComment"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-24T19:17:58.714Z",
+        "line": 46,
+        "name": "Add an attachment to issue",
+        "description": "",
+        "id": "issues-management;add-an-attachment-to-issue",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Request payload is ready with attachment \"Samplefile.xlsx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Samplefile.xlsx",
+                  "offset": 42
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.request_payload_is_ready_with_attachment_something(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1080000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "\"ModifyIssueAPI\" is invoked with \"POST\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ModifyIssueAPI",
+                  "offset": 1
+                },
+                {
+                  "val": "POST",
+                  "offset": 34
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.something_is_invoked_with_something_method(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Response has Statuscode as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.response_has_something_as_something(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 64000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Response has \"filename\" with value \"[Samplefile.xlsx]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "filename",
+                  "offset": 14
+                },
+                {
+                  "val": "[Samplefile.xlsx]",
+                  "offset": 36
+                }
+              ],
+              "location": "jiraStepDefinitions.StepDefinitions.response_has_something_with_value_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddAttachment"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Issues management",
+    "description": "",
+    "id": "issues-management",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/jiraFeatures/features.feature",
+    "tags": []
+  }
+]

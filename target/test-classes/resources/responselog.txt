@@ -1,0 +1,910 @@
+HTTP/1.1 201 
+Server: AtlassianProxy/1.15.8.1
+Cache-Control: no-cache, no-store, no-transform
+Content-Type: application/json;charset=UTF-8
+Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+Date: Wed, 24 Jun 2020 19:17:50 GMT
+ATL-TraceId: eb7d52415b8fc930
+X-AREQUESTID: 1838fbc7-58ab-4144-b7f6-380dd0c2a9e4
+X-AACCOUNTID: 5ee0bfc1a7a4030ab384b3e2
+X-XSS-Protection: 1; mode=block
+Transfer-Encoding: chunked
+Timing-Allow-Origin: *
+X-Content-Type-Options: nosniff
+Micros-Issuer: micros/edge-authenticator
+Connection: keep-alive
+Set-Cookie: atlassian.xsrf.token=5ce1d875-8efe-45d1-9a41-b50fb825b5ad_e610ddb6779a9e3aa806a2435bd8160193ce7bf6_lin; Path=/; Secure
+Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+
+{
+    "id": "10235",
+    "key": "RES-236",
+    "self": "https://jira-automated.atlassian.net/rest/api/3/issue/10235"
+}
+HTTP/1.1 200 
+Server: AtlassianProxy/1.15.8.1
+Vary: Accept-Encoding
+Cache-Control: no-cache, no-store, no-transform
+Content-Type: application/json;charset=UTF-8
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+Date: Wed, 24 Jun 2020 19:17:53 GMT
+ATL-TraceId: e7ec8eb663c2cd97
+X-AREQUESTID: 1d7870f5-9cfe-4cfd-b475-56bb03ce65c3
+X-AACCOUNTID: 5ee0bfc1a7a4030ab384b3e2
+X-XSS-Protection: 1; mode=block
+Transfer-Encoding: chunked
+Timing-Allow-Origin: *
+X-Content-Type-Options: nosniff
+Micros-Issuer: micros/edge-authenticator
+Connection: keep-alive
+Set-Cookie: atlassian.xsrf.token=5ce1d875-8efe-45d1-9a41-b50fb825b5ad_0aabce411226d3791f81f17a3409eb6767c82d5e_lin; Path=/; Secure
+Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+
+{
+    "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+    "id": "10235",
+    "self": "https://jira-automated.atlassian.net/rest/api/3/issue/10235",
+    "key": "RES-236",
+    "fields": {
+        "statuscategorychangedate": "2020-06-24T22:17:50.716+0300",
+        "issuetype": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/issuetype/10001",
+            "id": "10001",
+            "description": "Functionality or a feature expressed as a user goal.",
+            "iconUrl": "https://jira-automated.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+            "name": "Story",
+            "subtask": false,
+            "avatarId": 10315
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/project/10000",
+            "id": "10000",
+            "key": "RES",
+            "name": "RESTASSURED",
+            "projectTypeKey": "software",
+            "simplified": false,
+            "avatarUrls": {
+                "48x48": "https://jira-automated.atlassian.net/secure/projectavatar?pid=10000&avatarId=10410",
+                "24x24": "https://jira-automated.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10410",
+                "16x16": "https://jira-automated.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10410",
+                "32x32": "https://jira-automated.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10410"
+            }
+        },
+        "fixVersions": [
+            
+        ],
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10027": [
+            
+        ],
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": null,
+        "issuerestriction": {
+            "issuerestrictions": {
+                
+            },
+            "shouldDisplay": false
+        },
+        "watches": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/issue/RES-236/watchers",
+            "watchCount": 1,
+            "isWatching": true
+        },
+        "created": "2020-06-24T22:17:50.525+0300",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/priority/3",
+            "iconUrl": "https://jira-automated.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [
+            
+        ],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+            "hasEpicLinkFieldDependency": false,
+            "showField": false,
+            "nonEditableReason": {
+                "reason": "PLUGIN_LICENSE_ERROR",
+                "message": "The Parent Link is only available to Jira Premium users."
+            }
+        },
+        "customfield_10019": "0|i001fz:",
+        "aggregatetimeoriginalestimate": null,
+        "timeestimate": null,
+        "versions": [
+            
+        ],
+        "issuelinks": [
+            
+        ],
+        "assignee": null,
+        "updated": "2020-06-24T22:17:50.525+0300",
+        "status": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/status/10000",
+            "description": "",
+            "iconUrl": "https://jira-automated.atlassian.net/",
+            "name": "To Do",
+            "id": "10000",
+            "statusCategory": {
+                "self": "https://jira-automated.atlassian.net/rest/api/3/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+            }
+        },
+        "components": [
+            
+        ],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "timetracking": {
+            
+        },
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "attachment": [
+            
+        ],
+        "aggregatetimeestimate": null,
+        "summary": "This is a story",
+        "creator": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/user?accountId=5ee0bfc1a7a4030ab384b3e2",
+            "accountId": "5ee0bfc1a7a4030ab384b3e2",
+            "emailAddress": "sujithsukumaranm@gmail.com",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "24x24": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "16x16": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "32x32": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png"
+            },
+            "displayName": "sujith sukumaran",
+            "active": true,
+            "timeZone": "Asia/Amman",
+            "accountType": "atlassian"
+        },
+        "subtasks": [
+            
+        ],
+        "reporter": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/user?accountId=5ee0bfc1a7a4030ab384b3e2",
+            "accountId": "5ee0bfc1a7a4030ab384b3e2",
+            "emailAddress": "sujithsukumaranm@gmail.com",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "24x24": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "16x16": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "32x32": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png"
+            },
+            "displayName": "sujith sukumaran",
+            "active": true,
+            "timeZone": "Asia/Amman",
+            "accountType": "atlassian"
+        },
+        "customfield_10000": "{}",
+        "aggregateprogress": {
+            "progress": 0,
+            "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+            "progress": 0,
+            "total": 0
+        },
+        "comment": {
+            "comments": [
+                
+            ],
+            "maxResults": 0,
+            "total": 0,
+            "startAt": 0
+        },
+        "votes": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/issue/RES-236/votes",
+            "votes": 0,
+            "hasVoted": false
+        },
+        "worklog": {
+            "startAt": 0,
+            "maxResults": 20,
+            "total": 0,
+            "worklogs": [
+                
+            ]
+        }
+    }
+}
+HTTP/1.1 201 
+Server: AtlassianProxy/1.15.8.1
+Cache-Control: no-cache, no-store, no-transform
+Content-Type: application/json;charset=UTF-8
+Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+Date: Wed, 24 Jun 2020 19:17:54 GMT
+ATL-TraceId: d97db2b42f3feee5
+X-AREQUESTID: 1c78c043-62eb-4778-a839-1e6aea9558e8
+X-AACCOUNTID: 5ee0bfc1a7a4030ab384b3e2
+X-XSS-Protection: 1; mode=block
+Transfer-Encoding: chunked
+Timing-Allow-Origin: *
+X-Content-Type-Options: nosniff
+Micros-Issuer: micros/edge-authenticator
+Connection: keep-alive
+Set-Cookie: atlassian.xsrf.token=5ce1d875-8efe-45d1-9a41-b50fb825b5ad_c32b0473f20fccedbb88bf9effd8cbe35c349b39_lin; Path=/; Secure
+Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+
+{
+    "id": "10236",
+    "key": "RES-237",
+    "self": "https://jira-automated.atlassian.net/rest/api/3/issue/10236"
+}
+HTTP/1.1 200 
+Server: AtlassianProxy/1.15.8.1
+Vary: Accept-Encoding
+Cache-Control: no-cache, no-store, no-transform
+Content-Type: application/json;charset=UTF-8
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+Date: Wed, 24 Jun 2020 19:17:55 GMT
+ATL-TraceId: 342ab84b3aea2c68
+X-AREQUESTID: 47c896fe-fce4-4ce8-8f1d-824b358bbbc5
+X-AACCOUNTID: 5ee0bfc1a7a4030ab384b3e2
+X-XSS-Protection: 1; mode=block
+Transfer-Encoding: chunked
+Timing-Allow-Origin: *
+X-Content-Type-Options: nosniff
+Micros-Issuer: micros/edge-authenticator
+Connection: keep-alive
+Set-Cookie: atlassian.xsrf.token=5ce1d875-8efe-45d1-9a41-b50fb825b5ad_0bbbfd9748fb4cd10bc85fd8634870b54b8dad03_lin; Path=/; Secure
+Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+
+{
+    "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+    "id": "10236",
+    "self": "https://jira-automated.atlassian.net/rest/api/3/issue/10236",
+    "key": "RES-237",
+    "fields": {
+        "statuscategorychangedate": "2020-06-24T22:17:54.362+0300",
+        "issuetype": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/issuetype/10004",
+            "id": "10004",
+            "description": "A problem or error.",
+            "iconUrl": "https://jira-automated.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype",
+            "name": "Bug",
+            "subtask": false,
+            "avatarId": 10303
+        },
+        "timespent": null,
+        "project": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/project/10000",
+            "id": "10000",
+            "key": "RES",
+            "name": "RESTASSURED",
+            "projectTypeKey": "software",
+            "simplified": false,
+            "avatarUrls": {
+                "48x48": "https://jira-automated.atlassian.net/secure/projectavatar?pid=10000&avatarId=10410",
+                "24x24": "https://jira-automated.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10410",
+                "16x16": "https://jira-automated.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10410",
+                "32x32": "https://jira-automated.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10410"
+            }
+        },
+        "fixVersions": [
+            
+        ],
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10027": [
+            
+        ],
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": null,
+        "watches": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/issue/RES-237/watchers",
+            "watchCount": 1,
+            "isWatching": true
+        },
+        "issuerestriction": {
+            "issuerestrictions": {
+                
+            },
+            "shouldDisplay": false
+        },
+        "created": "2020-06-24T22:17:54.283+0300",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "customfield_10023": null,
+        "priority": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/priority/3",
+            "iconUrl": "https://jira-automated.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+        },
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [
+            
+        ],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+            "hasEpicLinkFieldDependency": false,
+            "showField": false,
+            "nonEditableReason": {
+                "reason": "PLUGIN_LICENSE_ERROR",
+                "message": "The Parent Link is only available to Jira Premium users."
+            }
+        },
+        "customfield_10019": "0|i001g7:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [
+            
+        ],
+        "issuelinks": [
+            
+        ],
+        "assignee": null,
+        "updated": "2020-06-24T22:17:54.283+0300",
+        "status": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/status/10000",
+            "description": "",
+            "iconUrl": "https://jira-automated.atlassian.net/",
+            "name": "To Do",
+            "id": "10000",
+            "statusCategory": {
+                "self": "https://jira-automated.atlassian.net/rest/api/3/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+            }
+        },
+        "components": [
+            
+        ],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "timetracking": {
+            
+        },
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "customfield_10007": null,
+        "security": null,
+        "customfield_10008": null,
+        "aggregatetimeestimate": null,
+        "customfield_10009": null,
+        "attachment": [
+            
+        ],
+        "summary": "This is a Bug",
+        "creator": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/user?accountId=5ee0bfc1a7a4030ab384b3e2",
+            "accountId": "5ee0bfc1a7a4030ab384b3e2",
+            "emailAddress": "sujithsukumaranm@gmail.com",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "24x24": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "16x16": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "32x32": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png"
+            },
+            "displayName": "sujith sukumaran",
+            "active": true,
+            "timeZone": "Asia/Amman",
+            "accountType": "atlassian"
+        },
+        "subtasks": [
+            
+        ],
+        "reporter": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/user?accountId=5ee0bfc1a7a4030ab384b3e2",
+            "accountId": "5ee0bfc1a7a4030ab384b3e2",
+            "emailAddress": "sujithsukumaranm@gmail.com",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "24x24": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "16x16": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "32x32": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png"
+            },
+            "displayName": "sujith sukumaran",
+            "active": true,
+            "timeZone": "Asia/Amman",
+            "accountType": "atlassian"
+        },
+        "customfield_10000": "{}",
+        "aggregateprogress": {
+            "progress": 0,
+            "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+            "progress": 0,
+            "total": 0
+        },
+        "votes": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/issue/RES-237/votes",
+            "votes": 0,
+            "hasVoted": false
+        },
+        "comment": {
+            "comments": [
+                
+            ],
+            "maxResults": 0,
+            "total": 0,
+            "startAt": 0
+        },
+        "worklog": {
+            "startAt": 0,
+            "maxResults": 20,
+            "total": 0,
+            "worklogs": [
+                
+            ]
+        }
+    }
+}
+HTTP/1.1 204 
+Server: AtlassianProxy/1.15.8.1
+Cache-Control: no-cache, no-store, no-transform
+Content-Type: application/json;charset=UTF-8
+Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+Date: Wed, 24 Jun 2020 19:17:55 GMT
+ATL-TraceId: 9a45b51f134de121
+X-AREQUESTID: 2826772b-c83f-4501-8300-848ef2b7102e
+X-AACCOUNTID: 5ee0bfc1a7a4030ab384b3e2
+X-XSS-Protection: 1; mode=block
+Timing-Allow-Origin: *
+X-Content-Type-Options: nosniff
+Micros-Issuer: micros/edge-authenticator
+Connection: keep-alive
+Set-Cookie: atlassian.xsrf.token=5ce1d875-8efe-45d1-9a41-b50fb825b5ad_a94e94ad744a34307a9aa06ae92708ad6381a75d_lin; Path=/; Secure
+Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+HTTP/1.1 200 
+Server: AtlassianProxy/1.15.8.1
+Vary: Accept-Encoding
+Cache-Control: no-cache, no-store, no-transform
+Content-Type: application/json;charset=UTF-8
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+Date: Wed, 24 Jun 2020 19:17:56 GMT
+ATL-TraceId: d5759041cf21d94b
+X-AREQUESTID: 12ee55b9-a269-437e-94de-900f0348fc7c
+X-AACCOUNTID: 5ee0bfc1a7a4030ab384b3e2
+X-XSS-Protection: 1; mode=block
+Transfer-Encoding: chunked
+Timing-Allow-Origin: *
+X-Content-Type-Options: nosniff
+Micros-Issuer: micros/edge-authenticator
+Connection: keep-alive
+Set-Cookie: atlassian.xsrf.token=5ce1d875-8efe-45d1-9a41-b50fb825b5ad_1abf0edb5ff446242c566dcb926f97f04aa00174_lin; Path=/; Secure
+Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+
+{
+    "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+    "id": "10236",
+    "self": "https://jira-automated.atlassian.net/rest/api/3/issue/10236",
+    "key": "RES-237",
+    "fields": {
+        "statuscategorychangedate": "2020-06-24T22:17:54.362+0300",
+        "issuetype": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/issuetype/10004",
+            "id": "10004",
+            "description": "A problem or error.",
+            "iconUrl": "https://jira-automated.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype",
+            "name": "Bug",
+            "subtask": false,
+            "avatarId": 10303
+        },
+        "timespent": null,
+        "project": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/project/10000",
+            "id": "10000",
+            "key": "RES",
+            "name": "RESTASSURED",
+            "projectTypeKey": "software",
+            "simplified": false,
+            "avatarUrls": {
+                "48x48": "https://jira-automated.atlassian.net/secure/projectavatar?pid=10000&avatarId=10410",
+                "24x24": "https://jira-automated.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10410",
+                "16x16": "https://jira-automated.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10410",
+                "32x32": "https://jira-automated.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10410"
+            }
+        },
+        "fixVersions": [
+            
+        ],
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10027": [
+            
+        ],
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "issuerestriction": {
+            "issuerestrictions": {
+                
+            },
+            "shouldDisplay": false
+        },
+        "watches": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/issue/RES-237/watchers",
+            "watchCount": 1,
+            "isWatching": true
+        },
+        "lastViewed": null,
+        "created": "2020-06-24T22:17:54.283+0300",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "customfield_10023": null,
+        "priority": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/priority/3",
+            "iconUrl": "https://jira-automated.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+        },
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "labels": [
+            
+        ],
+        "customfield_10026": null,
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+            "hasEpicLinkFieldDependency": false,
+            "showField": false,
+            "nonEditableReason": {
+                "reason": "PLUGIN_LICENSE_ERROR",
+                "message": "The Parent Link is only available to Jira Premium users."
+            }
+        },
+        "customfield_10019": "0|i001g7:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [
+            
+        ],
+        "issuelinks": [
+            
+        ],
+        "assignee": null,
+        "updated": "2020-06-24T22:17:55.669+0300",
+        "status": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/status/10000",
+            "description": "",
+            "iconUrl": "https://jira-automated.atlassian.net/",
+            "name": "To Do",
+            "id": "10000",
+            "statusCategory": {
+                "self": "https://jira-automated.atlassian.net/rest/api/3/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+            }
+        },
+        "components": [
+            
+        ],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "timetracking": {
+            
+        },
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "customfield_10007": null,
+        "security": null,
+        "customfield_10008": null,
+        "aggregatetimeestimate": null,
+        "attachment": [
+            
+        ],
+        "customfield_10009": null,
+        "summary": "Jira title updated",
+        "creator": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/user?accountId=5ee0bfc1a7a4030ab384b3e2",
+            "accountId": "5ee0bfc1a7a4030ab384b3e2",
+            "emailAddress": "sujithsukumaranm@gmail.com",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "24x24": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "16x16": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "32x32": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png"
+            },
+            "displayName": "sujith sukumaran",
+            "active": true,
+            "timeZone": "Asia/Amman",
+            "accountType": "atlassian"
+        },
+        "subtasks": [
+            
+        ],
+        "reporter": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/user?accountId=5ee0bfc1a7a4030ab384b3e2",
+            "accountId": "5ee0bfc1a7a4030ab384b3e2",
+            "emailAddress": "sujithsukumaranm@gmail.com",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "24x24": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "16x16": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+                "32x32": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png"
+            },
+            "displayName": "sujith sukumaran",
+            "active": true,
+            "timeZone": "Asia/Amman",
+            "accountType": "atlassian"
+        },
+        "customfield_10000": "{}",
+        "aggregateprogress": {
+            "progress": 0,
+            "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+            "progress": 0,
+            "total": 0
+        },
+        "votes": {
+            "self": "https://jira-automated.atlassian.net/rest/api/3/issue/RES-237/votes",
+            "votes": 0,
+            "hasVoted": false
+        },
+        "comment": {
+            "comments": [
+                
+            ],
+            "maxResults": 0,
+            "total": 0,
+            "startAt": 0
+        },
+        "worklog": {
+            "startAt": 0,
+            "maxResults": 20,
+            "total": 0,
+            "worklogs": [
+                
+            ]
+        }
+    }
+}
+HTTP/1.1 201 
+Server: AtlassianProxy/1.15.8.1
+Cache-Control: no-cache, no-store, no-transform
+Content-Type: application/json;charset=UTF-8
+Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+Date: Wed, 24 Jun 2020 19:17:57 GMT
+ATL-TraceId: cc89ce3d390e58ab
+X-AREQUESTID: d9773683-fcdb-489f-a1ad-39d5ea465738
+X-AACCOUNTID: 5ee0bfc1a7a4030ab384b3e2
+Location: https://jira-automated.atlassian.net/rest/api/3/issue/10236/comment/10055
+X-XSS-Protection: 1; mode=block
+Transfer-Encoding: chunked
+Timing-Allow-Origin: *
+X-Content-Type-Options: nosniff
+Micros-Issuer: micros/edge-authenticator
+Connection: keep-alive
+Set-Cookie: atlassian.xsrf.token=5ce1d875-8efe-45d1-9a41-b50fb825b5ad_1af840eb50e324d22596a517751d6118f4344ca9_lin; Path=/; Secure
+Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+
+{
+    "self": "https://jira-automated.atlassian.net/rest/api/3/issue/10236/comment/10055",
+    "id": "10055",
+    "author": {
+        "self": "https://jira-automated.atlassian.net/rest/api/3/user?accountId=5ee0bfc1a7a4030ab384b3e2",
+        "accountId": "5ee0bfc1a7a4030ab384b3e2",
+        "emailAddress": "sujithsukumaranm@gmail.com",
+        "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+            "24x24": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+            "16x16": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+            "32x32": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png"
+        },
+        "displayName": "sujith sukumaran",
+        "active": true,
+        "timeZone": "Asia/Amman",
+        "accountType": "atlassian"
+    },
+    "body": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+            {
+                "type": "paragraph",
+                "content": [
+                    {
+                        "text": "Again a sample comment",
+                        "type": "text"
+                    }
+                ]
+            }
+        ]
+    },
+    "updateAuthor": {
+        "self": "https://jira-automated.atlassian.net/rest/api/3/user?accountId=5ee0bfc1a7a4030ab384b3e2",
+        "accountId": "5ee0bfc1a7a4030ab384b3e2",
+        "emailAddress": "sujithsukumaranm@gmail.com",
+        "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+            "24x24": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+            "16x16": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+            "32x32": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png"
+        },
+        "displayName": "sujith sukumaran",
+        "active": true,
+        "timeZone": "Asia/Amman",
+        "accountType": "atlassian"
+    },
+    "created": "2020-06-24T22:17:57.261+0300",
+    "updated": "2020-06-24T22:17:57.261+0300",
+    "jsdPublic": true
+}
+HTTP/1.1 200 
+Server: AtlassianProxy/1.15.8.1
+Vary: Accept-Encoding
+Cache-Control: no-cache, no-store, no-transform
+Content-Type: application/json;charset=UTF-8
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+Date: Wed, 24 Jun 2020 19:17:57 GMT
+ATL-TraceId: 69e16922263e6da9
+X-AREQUESTID: 1886219f-c09e-4c1c-8b3a-3de6cfe3c91c
+X-AACCOUNTID: 5ee0bfc1a7a4030ab384b3e2
+X-XSS-Protection: 1; mode=block
+Transfer-Encoding: chunked
+Timing-Allow-Origin: *
+X-Content-Type-Options: nosniff
+Micros-Issuer: micros/edge-authenticator
+Connection: keep-alive
+Set-Cookie: atlassian.xsrf.token=5ce1d875-8efe-45d1-9a41-b50fb825b5ad_b3e6c2b0ec1987cb85edb9df4f122cd7d71ec961_lin; Path=/; Secure
+Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+
+{
+    "self": "https://jira-automated.atlassian.net/rest/api/3/issue/10236/comment/10055",
+    "id": "10055",
+    "author": {
+        "self": "https://jira-automated.atlassian.net/rest/api/3/user?accountId=5ee0bfc1a7a4030ab384b3e2",
+        "accountId": "5ee0bfc1a7a4030ab384b3e2",
+        "emailAddress": "sujithsukumaranm@gmail.com",
+        "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+            "24x24": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+            "16x16": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+            "32x32": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png"
+        },
+        "displayName": "sujith sukumaran",
+        "active": true,
+        "timeZone": "Asia/Amman",
+        "accountType": "atlassian"
+    },
+    "body": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+            {
+                "type": "paragraph",
+                "content": [
+                    {
+                        "text": "Again a sample comment",
+                        "type": "text"
+                    }
+                ]
+            }
+        ]
+    },
+    "updateAuthor": {
+        "self": "https://jira-automated.atlassian.net/rest/api/3/user?accountId=5ee0bfc1a7a4030ab384b3e2",
+        "accountId": "5ee0bfc1a7a4030ab384b3e2",
+        "emailAddress": "sujithsukumaranm@gmail.com",
+        "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+            "24x24": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+            "16x16": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
+            "32x32": "https://secure.gravatar.com/avatar/85ed084a1c2bc0bf7ba8f9881c0738d5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png"
+        },
+        "displayName": "sujith sukumaran",
+        "active": true,
+        "timeZone": "Asia/Amman",
+        "accountType": "atlassian"
+    },
+    "created": "2020-06-24T22:17:57.261+0300",
+    "updated": "2020-06-24T22:17:57.261+0300",
+    "jsdPublic": true
+}
+HTTP/1.1 204 
+Server: AtlassianProxy/1.15.8.1
+Cache-Control: no-cache, no-store, no-transform
+Content-Type: application/json;charset=UTF-8
+Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+Date: Wed, 24 Jun 2020 19:17:59 GMT
+ATL-TraceId: 2dca0a2cd0a4115d
+X-AREQUESTID: 7b5f7b4b-1cc4-46f9-92d8-46ecc836152d
+X-AACCOUNTID: 5ee0bfc1a7a4030ab384b3e2
+X-XSS-Protection: 1; mode=block
+Timing-Allow-Origin: *
+X-Content-Type-Options: nosniff
+Micros-Issuer: micros/edge-authenticator
+Connection: keep-alive
+Set-Cookie: atlassian.xsrf.token=5ce1d875-8efe-45d1-9a41-b50fb825b5ad_05bfae95e85f9f4b610fc194cd2806999418416b_lin; Path=/; Secure
+Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+HTTP/1.1 404 
+Server: AtlassianProxy/1.15.8.1
+Vary: Accept-Encoding
+Cache-Control: no-cache, no-store, no-transform
+Content-Type: application/json;charset=UTF-8
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+Date: Wed, 24 Jun 2020 19:17:59 GMT
+ATL-TraceId: 920593c076811410
+X-AREQUESTID: 060feeb3-1eee-4554-a03a-15dca933d202
+X-AACCOUNTID: 5ee0bfc1a7a4030ab384b3e2
+X-XSS-Protection: 1; mode=block
+Transfer-Encoding: chunked
+Timing-Allow-Origin: *
+X-Content-Type-Options: nosniff
+Micros-Issuer: micros/edge-authenticator
+Connection: keep-alive
+Set-Cookie: atlassian.xsrf.token=5ce1d875-8efe-45d1-9a41-b50fb825b5ad_2cc9899d746883b1cdec43821faee64387e852af_lin; Path=/; Secure
+Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+
+{
+    "errorMessages": [
+        "Can not find a comment for the id: 10055."
+    ],
+    "errors": {
+        
+    }
+}

@@ -1,0 +1,18 @@
+Request method:	POST
+Request URI:	https://jira-automated.atlassian.net/rest/api/2/issue
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic c3VqaXRoc3VrdW1hcmFubUBnbWFpbC5jb206a3lUdkVwSW55V3BJZDlFbFJrZTBGQTFE
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "summary": "This is my jira",
+    "issuetype": null,
+    "project": null
+}

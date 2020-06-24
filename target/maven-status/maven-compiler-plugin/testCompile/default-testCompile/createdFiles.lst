@@ -1,0 +1,6 @@
+apiTesting\JiraAPIFramework\AppTest.class
+jiraStepDefinitions\StepDefinitions.class
+resources\DuplicateStep.class
+resources\APIResources.class
+resources\TestBase.class
+resources\RequestBody.class

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>cucumber-jvm-example</td>
+        <td>1</td>
+      <td>25 Jun 2020, 00:48</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">jiraStepDefinitions.StepDefinitions.basic_request_payload_is_ready()</td>
+              <td>1</td>
+              <td class="duration" data-value="4000000">0.004</td>
+              <td class="duration" data-value="4000000">0.004</td>
+              <td class="duration" data-value="4000000">0.004</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">jiraStepDefinitions.StepDefinitions.deleteissueapi_is_invoked_to_perform_delete_action()</td>
+              <td>1</td>
+              <td class="duration" data-value="547000000">0.547</td>
+              <td class="duration" data-value="547000000">0.547</td>
+              <td class="duration" data-value="547000000">0.547</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">jiraStepDefinitions.StepDefinitions.details_retrieved_successfully_using_something(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="720000000">0.720</td>
+              <td class="duration" data-value="720000000">0.964</td>
+              <td class="duration" data-value="1440000000">1.440</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">jiraStepDefinitions.StepDefinitions.request_payload_is_ready_with_attachment_something(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="43000000">0.043</td>
+              <td class="duration" data-value="43000000">0.043</td>
+              <td class="duration" data-value="43000000">0.043</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">jiraStepDefinitions.StepDefinitions.request_payload_is_ready_with_something_and_something(java.lang.String,java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="1647333333">1.647</td>
+              <td class="duration" data-value="1647333333">4.925</td>
+              <td class="duration" data-value="4942000000">4.942</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">jiraStepDefinitions.StepDefinitions.request_payload_is_ready_with_the_comment_something(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="232000000">0.232</td>
+              <td class="duration" data-value="232000000">0.232</td>
+              <td class="duration" data-value="232000000">0.232</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">jiraStepDefinitions.StepDefinitions.response_has_issue_with_something_as_something(java.lang.String,java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="878500000">0.878</td>
+              <td class="duration" data-value="878500000">1.720</td>
+              <td class="duration" data-value="1757000000">1.757</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">jiraStepDefinitions.StepDefinitions.response_has_something_as_something(java.lang.String)</td>
+              <td>8</td>
+              <td class="duration" data-value="1625000">0.001</td>
+              <td class="duration" data-value="1625000">0.010</td>
+              <td class="duration" data-value="13000000">0.013</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">jiraStepDefinitions.StepDefinitions.response_has_something_with_value_something(java.lang.String,java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="66333333">0.066</td>
+              <td class="duration" data-value="66333333">0.095</td>
+              <td class="duration" data-value="199000000">0.199</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">jiraStepDefinitions.StepDefinitions.something_from_something_field_is_fetched_successfully(java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="25000000">0.025</td>
+              <td class="duration" data-value="25000000">0.025</td>
+              <td class="duration" data-value="25000000">0.025</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">jiraStepDefinitions.StepDefinitions.something_is_invoked_successfully_with_issuekey(java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="793666666">0.793</td>
+              <td class="duration" data-value="793666666">0.941</td>
+              <td class="duration" data-value="2381000000">2.381</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">jiraStepDefinitions.StepDefinitions.something_is_invoked_to_create_issue(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="3284000000">3.284</td>
+              <td class="duration" data-value="3284000000">5.781</td>
+              <td class="duration" data-value="6568000000">6.568</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">jiraStepDefinitions.StepDefinitions.something_is_invoked_with_something_method(java.lang.String,java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="753666666">0.753</td>
+              <td class="duration" data-value="753666666">1.080</td>
+              <td class="duration" data-value="2261000000">2.261</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>13</td>
+            <td>31</td>
+            <td class="duration">0.658</td>
+            <td class="duration">6.568</td>
+            <td class="duration">20.412</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
