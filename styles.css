@@ -2,7 +2,7 @@
   margin:0px;
   padding:0px;
 }
-/* this is added by ayo */
+/* Magical formula taken from a stackoverflow post. */
 #octocat {
   display: block;
   width:384px;
